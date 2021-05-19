@@ -40,6 +40,7 @@
 - Frameworks
   - [DeepTables](https://deeptables.readthedocs.io/en/latest/models.html)
   - [Pytorch tabular](https://github.com/manujosephv/pytorch_tabular)
+  - [Microsoft hummingbird](https://github.com/microsoft/hummingbird): Convert trees to NNs
 
 <h1 align="center">Temporal Series</h1>
 
