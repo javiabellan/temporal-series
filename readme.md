@@ -46,9 +46,13 @@
 
 # Datasets
 
-- ADULTs
-- Rossmann
+- UCI
+  - [Adult](http://archive.ics.uci.edu/ml/datasets/Adult) Binary Classification
+  - [Glass Identification](http://archive.ics.uci.edu/ml/datasets/Glass+Identification) Multi-class Classification
+- Sklearn atasets
+  - [Boston](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html) regression, 506 samples
 - Kaggle competitions
+  - [Rossmann](https://www.kaggle.com/c/rossmann-store-sales)
   - [Porto Seguro](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction)
   - [Bulldozers](https://www.kaggle.com/c/bluebook-for-bulldozers)
 
