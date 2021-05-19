@@ -2,8 +2,8 @@
 
 # Gradient Boosting
 
-|         | sklearn<br>Random Forest | XGBoost<br>Gradient Boosting | LightGBM<br>Gradient Boosting | Try |
-|--------------------------------------|:--------------------:|:----------------:|:----------------:|-------------|
+|                                      | Random Forest (skl) | XGBoost          | LightGBM         | Try         |
+|--------------------------------------|:-------------------:|:----------------:|:----------------:|-------------|
 | 🔷 Number of trees                   | N_estimators         | num_round 💡     | num_iterations 💡| 100         |
 | 🔷 Max depth of the tree             | max_depth            | max_depth        | max_depth        | 7           |
 | 🔶 Min cases per final tree leaf     | min_samples_leaf     | min_child_weight | min_data_in_leaf |             |
@@ -19,12 +19,13 @@
 > - 🔶: Increase parameter for underfit, decrease for overfit. (regularization)
 > - 💡: For Gradient Boosting maybe is better to do early stopping rather than set a fixed number of trees.
 
-# Factorization Machines
 
-- Read [notes on matrix factorization machines](https://www.kaggle.com/residentmario/notes-on-matrix-factorization-machines)
-- Code: [FM in Keras](https://github.com/jfpuget/LibFM_in_Keras)
 
 # Neural Nets
+
+- **Factorization Machines**
+  - Read [notes on matrix factorization machines](https://www.kaggle.com/residentmario/notes-on-matrix-factorization-machines)
+  - Code: [FM in Keras](https://github.com/jfpuget/LibFM_in_Keras)
 - [DeepFM](https://arxiv.org/abs/1703.04247) (Mar 2017)
 - [xDeepFM](https://arxiv.org/abs/1803.05170) (Mar 2018)
 - [Neural nets for Airbnb search](https://arxiv.org/abs/1810.09591) (Oct 2018)
@@ -41,6 +42,21 @@
   - [DeepTables](https://deeptables.readthedocs.io/en/latest/models.html)
   - [Pytorch tabular](https://github.com/manujosephv/pytorch_tabular)
   - [Microsoft hummingbird](https://github.com/microsoft/hummingbird): Convert trees to NNs
+
+
+# Datasets
+
+- ADULTs
+- Rossmann
+- Kaggle competitions
+  - [Porto Seguro](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction)
+  - [Bulldozers](https://www.kaggle.com/c/bluebook-for-bulldozers)
+
+# Benchmark
+
+- https://forums.fast.ai/t/tabnet-with-fastai-v2/62600/19
+- https://forums.fast.ai/t/some-baselines-for-other-tabular-datasets-with-fastai2/62627
+- https://github.com/muellerzr/fastai2-Tabular-Baselines
 
 <h1 align="center">Temporal Series</h1>
 
