@@ -25,7 +25,8 @@
 
 - **Factorization Machines**
   - Read [notes on matrix factorization machines](https://www.kaggle.com/residentmario/notes-on-matrix-factorization-machines)
-  - Code: [FM in Keras](https://github.com/jfpuget/LibFM_in_Keras)
+  - Code: [LibFM in Keras](https://github.com/jfpuget/LibFM_in_Keras)
+  - [TF implementation of an arbitrary order (>=2) Factorization Machine](https://github.com/geffy/tffm) based on paper Factorization Machines with libFM.
 - [DeepFM](https://arxiv.org/abs/1703.04247) (Mar 2017)
 - [xDeepFM](https://arxiv.org/abs/1803.05170) (Mar 2018)
 - [Neural nets for Airbnb search](https://arxiv.org/abs/1810.09591) (Oct 2018)
